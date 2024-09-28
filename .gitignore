@@ -1,0 +1,94 @@
+# Ignore Visual Studio temporary files, build results, and
+# User-specific files
+
+## Ignore Visual Studio temporary files and folders
+.vscode/
+.vs/
+.idea/
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+## Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pp_Data/
+[Ll]og/
+*.obj
+*.exe
+*.pdb
+*.dll
+*.psess
+*.vspxproj
+*.mdb
+*.log
+*.stackdump
+*.pid
+*.tlog
+*.lastcodeanalysissucceeded
+*.vsix
+*.model.xml
+*.cache/
+*.pfx
+*.publishsettings
+publish/
+out/
+TestResults/
+build/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Microsoft Azure Web App publish settings
+#   This file contains sensitive information about your Azure account
+#   https://azure.microsoft.com/en-us/blog/git-credentials-manager-for-mac-and-linux/
+*.azurePubxml
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Auto-generated files (backup)
+*_UpgradeLog.htm
+UpgradeLog*.XML
+upgradeLog.xml
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Publish Web Output
+wwwroot/
+
+# NuGet Packages
+*.nupkg
+**/project.lock.json
+**/project.fragment.lock.json
+
+# The file containing a list of project to be packed together
+directory.build.props
+
+# Entity Framework migrations
+migrations/
+
+# DotNet user secrets (should not be shared)
+**/secrets.json
+
+# ASP.NET Temporary Data
+App_Data/
